@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopper Template</title>
+    <link rel="stylesheet" href="shopper-new.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+
+<body>
+    <header>
+        <div class="heading d-flex justify-content-around p-2 ">
+            <div class="brand-title ">Shopper.</div>
+            <div>
+                <nav>
+                    <ul class="nav-1 d-flex justify-content-around pt-3">
+                        <li class="pe-4">Home</li>
+                        <li class="pe-4">Catlog</li>
+                        <li class="pe-4">Shop</li>
+                        <li class="pe-4">Pages</li>
+                        <li class="pe-4">Docs</li>
+                    </ul>
+                </nav>
+            </div>
+            <div>
+                <nav d-flex>
+                    <ul class="nav-2 d-flex justify-content-around pt-3">
+                        <li class="pe-3 bi bi-search"></li>
+                        <li class="pe-3 bi bi-person"></li>
+                        <li class="pe-3 bi bi-heart"></li>
+                        <li class="pe-3 bi bi-cart"></li>
+                    </ul>
+                </nav>
+                <div><span class="top-up">2</span></div>
+            </div>
+        </div>
+        <div class="deals mt-1"><span class="bi bi-lightning-fill"></span> <span class="heading-1 p-2">Happy holiday
+                deals on everything</span><span class="bi bi-lightning-fill"></span></div>
+    </header>
+    <section>
+        <main class="shop mt-3">
+            <div class="women">
+                <div class="font">Women</div>
+                <div class="shop-font"><button class="btn btn-white">Shop Women &nbsp;<span
+                            class="bi bi-arrow-right"></span></button></div>
+            </div>
+            <div class="men">
+                <div class="font">Men</div>
+                <div class="shop-font"><button class="btn btn-white">Shop Men &nbsp;<span
+                            class="bi bi-arrow-right"></span></button></div>
+            </div>
+            <div class="kid">
+                <div class="font">Kid</div>
+                <div class="shop-font"><button class="btn btn-white">Shop Kid &nbsp;<span
+                            class="bi bi-arrow-right"></span></button></div>
+            </div>
+        </main>
+
+        <div class="delivery-source">
+            <div>
+                <span class="spacing bi bi-truck p-2"></span>
+                <span class="imp">
+                    <span class="FREE">FREE DELIVERY</span>
+                    <div>
+                        <p class="imges">
+                            <font color="gray">From all orders over $100</font>
+                        </p>
+                    </div>
+                </span>
+            </div>
+
+            <div>
+                <span class="spacing bi bi-arrow-left-right p-2"></span>
+                <span class="imp">
+                    <span class="FREE">FREE RETURNS</span>
+                    <div>
+                        <p class="imges">
+                            <font color="gray">Return money within 30 days</font>
+                        </p>
+                    </div>
+                </span>
+            </div>
+
+            <div>
+                <span class="spacing bi bi-lock p-2 "></span>
+                <span class="imp">
+                    <span class="FREE">SECURE SHOPPING</span>
+                    <div>
+                        <p class="imges">
+                            <font color="gray">You're in safe hands
+                            </font>
+                        </p>
+                    </div>
+                </span>
+            </div>
+
+            <div>
+                <span class="spacing bi bi-tag p-2"></span>
+                <span class="imp">
+                    <span class="FREE">OVER 10,000 STYLES</span>
+                    <div>
+                        <p class="imges">
+                            <font color="gray">We have everything you need
+                            </font>
+                        </p>
+                    </div>
+                </span>
+            </div>
+        </div>
+        <hr>
+        <article class="article-1">
+            <div class="article-1-1 d-flex align-items-center justify-content-center">
+                <div>
+                    <font color="gray" size="2"><b>NEW COLLECTION</b></font>
+                    <h2 class="p-1"><b>Best Picks 2019</b></h2>
+                    <p class="color-1">
+                        <font size="2">Appear, dry there darkness they're seas, dry waters thing fly midst. Beast,<br>
+                            above fly brought Very green.</font>
+                    </p>
+                </div>
+            </div>
+            </div>
+
+            <div class="article-2">
+                <div class="cont-1">
+                    <div class="article-2-1">
+                        <p class="collection">Bags Collection</p>
+                        <button class="shop-1">Shop Now <span class="bi bi-arrow-right"></span></button>
+                    </div>
+                </div>
+                <div class="cont-1">
+                    <div class="article-2-2">
+                        <p class="collection">Printed Men's Shirts</p>
+                        <button class="shop-2">Shop Now <span class="bi bi-arrow-right"></span></button>
+                    </div>
+                    <div class="offer">
+                        <div>
+                            save
+                        </div>
+                        <div class="bbt">30%</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="article-3">
+                <div class="cont-1">
+                    <div class="article-3-1">
+                        <p class="collection">Basic Women's Dress</p>
+                        <button class="shop-2">Shop Now <span class="bi bi-arrow-right"></span></button>
+                    </div>
+                </div>
+                <div class="cont-1">
+                    <div class="article-3-2">
+                        <p class="collection">Sweatshirts</p>
+                        <button class="shop-1">Shop Now <span class="bi bi-arrow-right"></span></button>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <main>
+            <div class="top-seller">
+                <div class="top-seller-1">Top month Sellers</div>
+                <div class="top-seller-2">
+                    <button class="amazing" type="button"><span class="creativity"></span>Women</button>
+                    <button class="amazing" type="button"><span class="creativity"></span>Men</button>
+                    <button class="amazing" type="button"><span class="creativity"></span>Kids</button>
+                </div>
+            </div>
+        </main>
+        <div class="cards">
+            <div>
+                <div class="sandal">
+                    <div class="icons-1">
+                        <span class="bi bi-person p-2"></span>
+                        <span class="bi bi-heart p-2"></span>
+                        <span class="bi bi-cart p-2"></span>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <div class="mt-3 ps-4">
+                            <font color="gray" size="3">Shoes</font>
+                        </div>
+                        <div class="ps-4">
+                            <font size="3">Leather mid-heel Sandals</font>
+                        </div>
+                        <div class="ps-4">
+                            <font color="gray" size="2"><b>$129.00</b></font>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="Printed-Dress">
+                    <div class="icons-2">
+                        <span class="bi bi-person p-2"></span>
+                        <span class="bi bi-heart p-2"></span>
+                        <span class="bi bi-cart p-2"></span>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <div class="mt-3 ps-4">
+                            <font color="gray" size="3">Dresses</font>
+                        </div>
+                        <div class="ps-4">
+                            <font size="3">Cotton floral print Dress
+                            </font>
+                        </div>
+                        <div class="ps-4">
+                            <font color="gray" size="2"><b>$40.00</b></font>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="Leather-Snikers">
+                    <div class="icons-3">
+                        <span class="bi bi-person p-2"></span>
+                        <span class="bi bi-heart p-2"></span>
+                        <span class="bi bi-cart p-2"></span>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <div class="mt-3 ps-4">
+                            <font color="gray" size="3">Shoes</font>
+                        </div>
+                        <div class="ps-4">
+                            <font size="3">Leather Sneakers</font>
+                        </div>
+                        <div class="ps-4">
+                            <span>
+                                <font color="gray" size="2"><b><strike>$85.00</strike></b></font>
+                            </span>
+                            <span>
+                                <font color="red" size="2"><b>$75.00</b></font>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="Cropped-Cotton-Tops">
+                    <div class="icons-4">
+                        <span class="bi bi-person p-2"></span>
+                        <span class="bi bi-heart p-2"></span>
+                        <span class="bi bi-cart p-2"></span>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <div class="mt-3 ps-4">
+                            <font color="gray" size="3">Tops</font>
+                        </div>
+                        <div class="ps-4">
+                            <font size="3">Cropped cotton Top</font>
+                        </div>
+                        <div class="ps-4">
+                            <font color="gray" size="2"><b>$29.00</b></font>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="cards">
+
+            <div>
+                <div class="Watch">
+                    <div class="icons-1">
+                        <span class="bi bi-person p-2"></span>
+                        <span class="bi bi-heart p-2"></span>
+                        <span class="bi bi-cart p-2"></span>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <div class="mt-3 ps-4">
+                            <font color="gray" size="3">Watch</font>
+                        </div>
+                        <div class="ps-4">
+                            <font size="3">Expensive watches in cheap rate</font>
+                        </div>
+                        <div class="ps-4">
+                            <font color="gray" size="2"><b>$89.00</b></font>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="Bags-women">
+                    <div class="icons-2">
+                        <span class="bi bi-person p-2"></span>
+                        <span class="bi bi-heart p-2"></span>
+                        <span class="bi bi-cart p-2"></span>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <div class="mt-3 ps-4">
+                            <font color="gray" size="3">Bags</font>
+                        </div>
+                        <div class="ps-4">
+                            <font size="3">Lather Bags Collection
+                            </font>
+                        </div>
+                        <div class="ps-4">
+                            <span>
+                                <font color="gray" size="2"><b><strike>$120.00</strike></b></font>
+                            </span>
+                            <span>
+                                <font color="red" size="2"><b>$75.00</b></font>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="Vegitables">
+                    <div class="icons-3">
+                        <span class="bi bi-person p-2"></span>
+                        <span class="bi bi-heart p-2"></span>
+                        <span class="bi bi-cart p-2"></span>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <div class="mt-3 ps-4">
+                            <font color="gray" size="3">Vegitables</font>
+                        </div>
+                        <div class="ps-4">
+                            <font size="3">Fresh Vegitables</font>
+                        </div>
+                        <div class="ps-4">
+                            <font color="gray" size="2"><b>Starts from $5.00</b></font>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="Beauty-Products">
+                    <div class="icons-4">
+                        <span class="bi bi-person p-2"></span>
+                        <span class="bi bi-heart p-2"></span>
+                        <span class="bi bi-cart p-2"></span>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <div class="mt-3 ps-4">
+                            <font color="gray" size="3">Beauty Products</font>
+                        </div>
+                        <div class="ps-4">
+                            <font size="3">All Beauty Products</font>
+                        </div>
+                        <div class="ps-4">
+                            <font color="gray" size="2"><b>Starts from $69.00</b></font>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="discover-more">
+            Discover More
+        </div>
+    </section>
+    <section>
+        <div class="sandel-background">
+            <div class="discount-offer">
+               <div class="title-background">
+                Get -50% from <br>
+                Summer Collection
+               </div>
+               <div class="time-zone mt-2">
+                <span>778</span>
+                <span>:</span>
+                <span>13</span>
+                <span>:</span>
+                <span>26</span>
+                <span>:</span>
+                <span>41</span>
+               </div>
+               <div class="time-zone-1">
+                <span class="time-zone-1-1">DAYS</span>
+                <span class="time-zone-2">HOURS</span>
+                <span class="time-zone-3">MINUTES</span>
+                <span class="time-zone-4">SECONDS</span>
+               </div>
+               <div class="mt-4">
+            <button class="btn btn-dark p-3 ">Shop Now <span class="bi bi-chevron-right"></span></button>
+               </div>
+            </div>
+        </div>
+        <div class="latest-buyers">
+            <p><font color="gray" size="2">WHAT BUYERS SAY
+            </font><br>
+        <font color="black" size="6"><b> Latest buyers Reviews</b></font></p>
+        </div>
+
+        <div class="section-1-1-1">
+            <div class="shoes-section">
+                <div class="header-1-1">
+                    <div class="shoes-img">
+                        <img src="public/images/Shoes-1-1.jpg" width="100" height="100">
+                    </div>
+                    <div class="shoes-details ps-4">
+                        <div><font size="2" color="gray">Shoes</font></div>
+                        <div><font size="3">Low top sneakers</font></div>
+                        <div>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star"></span>
+                            <span class="bi bi-star"></span>
+                           
+                        </div>
+                    </div>
+                </div>
+                <div class="section-1-1 pt-2">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At nostrum aliquam recusandae incidunt culpa quos nulla nemo explicabo ipsum cupiditate, eaque dignissimos!</p>
+                </div>
+                <div class="footer-1-1 pt-4">
+                    <p>Logan Edwards, 01 jun 2019</p>
+                </div>
+            </div>
+    
+            <div class="shoes-section">
+                <div class="header-1-1">
+                    <div class="shoes-img">
+                        <img src="public/images/women-dress.jpeg" width="100" height="100">
+                    </div>
+                    <div class="shoes-details ps-4">
+                        <div><font size="2" color="gray">Dresses</font></div>
+                        <div><font size="3">Cotton printed dresses</font></div>
+                        <div>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-1-1 pt-2">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At nostrum aliquam recusandae incidunt culpa quos nulla nemo explicabo ipsum cupiditate, eaque dignissimos! Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="footer-1-1 pt-4">
+                    <p>Jane Jefferson, 29 May 2019</p>
+                </div>
+            </div>
+    
+            <div class="shoes-section">
+                <div class="header-1-1">
+                    <div class="shoes-img">
+                        <img src="public/images/men-tshirt.jpeg" width="100" height="100">
+                    </div>
+                    <div class="shoes-details ps-4">
+                        <div><font size="2" color="gray">T-shirts</font></div>
+                        <div><font size="3">Oversized print T-shirt</font></div>
+                        <div>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star-fill"></span>
+                            <span class="bi bi-star"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-1-1 pt-2">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At nostrum aliquam recusandae incidunt culpa quos nulla nemo explicabo ipsum cupiditate, eaque dignissimos!</p>
+                </div>
+                <div class="footer-1-1 pt-4">
+                    <p>Darrell Baker, 18 May 2019</p>
+                </div>
+            </div>
+        </div>
+        <div class="sponsorship">
+            <div class="sponsorship-1">
+                <div class="sponsorship-1-1">
+                    <h1>@shopper</h1>
+                    <p><font color="gray">Appear, dry there darkness they're seas, dry waters.</font></p>
+                </div>
+            </div>
+            <div class="images-1-1">
+                <div class="img-1">
+                    <span class="bi bi-heart">243</span>&nbsp; &nbsp;
+                    <span class="bi bi-person">3</span>
+                </div>
+
+                <div class="img-2">
+                    <span class="bi bi-heart">243</span>&nbsp; &nbsp;
+                    <span class="bi bi-person">3</span>
+                </div>
+
+                <div class="img-3">
+                    <span class="bi bi-heart">243</span>&nbsp; &nbsp;
+                    <span class="bi bi-person">3</span>
+                </div>
+
+                <div class="img-4">
+                    <span class="bi bi-heart">243</span>&nbsp; &nbsp;
+                    <span class="bi bi-person">3</span>
+                </div>
+
+                <div class="img-5">
+                    <span class="bi bi-heart">243</span>&nbsp; &nbsp;
+                    <span class="bi bi-person">3</span>
+                </div>
+                
+                <div class="img-6">
+                    <span class="bi bi-heart">243</span>&nbsp; &nbsp;
+                    <span class="bi bi-person">3</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="end-1">
+            <h2><font color="white"><b>Want style Ideas and Treats?</b></font></h2>
+            <div class="input-group" id="q1">
+                <div>
+                    <input type="text" class="form-control" placeholder="Enter Email *">
+                </div>
+                <div>
+                    <button class="btn btn-primary form-control w-100">Subscribe</button>
+                </div>
+            </div>
+            <div class="foot">
+                <div>
+                    <div id="heading">Shopper.</div>
+                    <aside id="d1">
+                        <span class="bi-instagram p-1"></span>
+                        <span class="bi bi-facebook p-1"></span>
+                        <span class="bi bi-youtube p-1"></span>
+                        <span class="bi bi-twitter p-1"></span>
+                    </aside>
+                </div>
+                <div>
+                    <div class="footer-title">SUPPORT</div>
+                    <span> Contact Us <br></span>
+                    <span>FAQs <br></span>
+                    <span>Size Guide <br></span>
+                    <span>Shipping & Returns</span>
+                </div>
+                <div>
+                    <div class="footer-title">SHOP</div>
+                    <span>Men's Shopping <br></span>
+                    <span>Women's Shopping <br></span>
+                    <span>Kids' Shopping <br></span>
+                    <span>Discounts</span>
+                </div>
+                <div>
+                    <div class="footer-title">COMPANY</div>
+                    <span>Our Story <br></span>
+                    <span>Careers <br></span>
+                    <span>Terms & Conditions <br></span>
+                    <span>Privacy & Cookie policy</span>
+                </div>
+                <address>
+                    <div class="footer-title">CONTACT</div>
+                    <span>1-202-555-0105 <br></span>
+                    <span>1-202-555-0106 <br></span>
+                    <span>help@shopper.com <br></span>
+                </address>
+            </div>
+            <hr>
+            <div id="end">
+                <div>
+                    &copy;2023 All rights reserved. Designed by Unvab.
+                </div>
+                <div>
+                    By:-Aakash Rambhad
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
